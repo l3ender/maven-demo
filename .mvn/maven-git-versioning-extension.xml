@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://github.com/qoomon/maven-git-versioning-extension -->
+<configuration>
+	<branches>
+		<branch>
+			<pattern>.*</pattern>
+			<versionFormat>${branch}-SNAPSHOT</versionFormat>
+		</branch>
+	</branches>
+	<tags>
+		<tag>
+			<pattern>v[0-9].*</pattern>
+			<prefix>v</prefix>
+			<versionFormat>${tag}</versionFormat>
+		</tag>
+	</tags>
+</configuration>
