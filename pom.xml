@@ -5,11 +5,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>l3ender</groupId>
 	<artifactId>maven-demo</artifactId>
-	<version>0.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
+	<parent>
+		<groupId>l3ender</groupId>
+		<artifactId>maven-demo-parent</artifactId>
+		<version>1.0.1</version>
+		<relativePath>parent-pom.xml</relativePath>
+    </parent>
 
 </project>
